@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DMMessageHUD_Example' do
+  pod 'DMMessageHUD', :path => '../'
+
+  target 'DMMessageHUD_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
