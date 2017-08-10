@@ -1,0 +1,22 @@
+{
+  "name": "DMMessageHUD",
+  "version": "0.1.0",
+  "summary": "A short description of DMMessageHUD.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/DeveloperiMichael/DMMessageHUD",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "DeveloperiMichael": "michael.zhang@wwwarehouse.com"
+  },
+  "source": {
+    "git": "https://github.com/DeveloperiMichael/DMMessageHUD.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DMMessageHUD/Classes/**/*"
+}

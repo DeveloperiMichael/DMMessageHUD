@@ -1,0 +1,19 @@
+PODS:
+  - DMMessageHUD (0.1.0)
+  - Masonry (0.6.4)
+
+DEPENDENCIES:
+  - DMMessageHUD (from `../`)
+  - Masonry (~> 0.6.4)
+
+EXTERNAL SOURCES:
+  DMMessageHUD:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DMMessageHUD: 75bdc9c90cc953bea0bca3e117fe24b32eeb27d5
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+
+PODFILE CHECKSUM: f1e4a704ce326a2fde789f4605cabd1001a17f19
+
+COCOAPODS: 1.3.0.beta.2

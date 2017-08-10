@@ -1,11 +1,18 @@
-use_frameworks!
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+platform :ios, '8.0'
 
 target 'DMMessageHUD_Example' do
-  pod 'DMMessageHUD', :path => '../'
-
-  target 'DMMessageHUD_Tests' do
-    inherit! :search_paths
-
+    pod 'DMMessageHUD', :path => '../'
     
-  end
+    pod 'Masonry', '~> 0.6.4'
+    
+    
+    target 'DMMessageHUD_Tests' do
+        inherit! :search_paths
+        
+        
+    end
 end

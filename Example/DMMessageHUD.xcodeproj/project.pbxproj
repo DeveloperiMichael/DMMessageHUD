@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4682F90E9547A41457F28D5E /* Pods_DMMessageHUD_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31CC704AF67C6DE960DDEC88 /* Pods_DMMessageHUD_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		F96B2A060415351520158B18 /* Pods_DMMessageHUD_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C627AAD34586C301953549B /* Pods_DMMessageHUD_Tests.framework */; };
+		B19DFAE0FA240635A3BD483A /* libPods-DMMessageHUD_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A2FDE1EC911714EC64C78CB /* libPods-DMMessageHUD_Tests.a */; };
+		B5C63BBA6E56A26462099CCA /* libPods-DMMessageHUD_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FCB902864DF851D5EFB22E /* libPods-DMMessageHUD_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D74306761B97CF63D9D54E8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		31CC704AF67C6DE960DDEC88 /* Pods_DMMessageHUD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMMessageHUD_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B06B94AA7E05532C25673E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		3C627AAD34586C301953549B /* Pods_DMMessageHUD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMMessageHUD_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2FDE1EC911714EC64C78CB /* libPods-DMMessageHUD_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DMMessageHUD_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D74306761B97CF63D9D54E8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3B06B94AA7E05532C25673E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4F861096C19E5A9E0DB4DE2E /* Pods-DMMessageHUD_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMMessageHUD_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DMMessageHUD_Example/Pods-DMMessageHUD_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DMMessageHUD_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMMessageHUD_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,8 +64,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93375CC46FD041AE9DF2FB5E /* Pods-DMMessageHUD_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMMessageHUD_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DMMessageHUD_Tests/Pods-DMMessageHUD_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9E37FF726682512705AF707A /* Pods-DMMessageHUD_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMMessageHUD_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DMMessageHUD_Example/Pods-DMMessageHUD_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AF6D7528E7B421314E360C92 /* DMMessageHUD.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DMMessageHUD.podspec; path = ../DMMessageHUD.podspec; sourceTree = "<group>"; };
+		AF6D7528E7B421314E360C92 /* DMMessageHUD.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DMMessageHUD.podspec; path = ../DMMessageHUD.podspec; sourceTree = "<group>"; };
 		BBA3A50C6EBECC2136AB43EA /* Pods-DMMessageHUD_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMMessageHUD_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DMMessageHUD_Tests/Pods-DMMessageHUD_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1FCB902864DF851D5EFB22E /* libPods-DMMessageHUD_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DMMessageHUD_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				4682F90E9547A41457F28D5E /* Pods_DMMessageHUD_Example.framework in Frameworks */,
+				B5C63BBA6E56A26462099CCA /* libPods-DMMessageHUD_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				F96B2A060415351520158B18 /* Pods_DMMessageHUD_Tests.framework in Frameworks */,
+				B19DFAE0FA240635A3BD483A /* libPods-DMMessageHUD_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				31CC704AF67C6DE960DDEC88 /* Pods_DMMessageHUD_Example.framework */,
-				3C627AAD34586C301953549B /* Pods_DMMessageHUD_Tests.framework */,
+				C1FCB902864DF851D5EFB22E /* libPods-DMMessageHUD_Example.a */,
+				1A2FDE1EC911714EC64C78CB /* libPods-DMMessageHUD_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -250,6 +250,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = DeveloperiMichael;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = XDK267KQ83;
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -533,12 +537,16 @@
 			baseConfigurationReference = 4F861096C19E5A9E0DB4DE2E /* Pods-DMMessageHUD_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XDK267KQ83;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DMMessageHUD/DMMessageHUD-Prefix.pch";
 				INFOPLIST_FILE = "DMMessageHUD/DMMessageHUD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "29ecd84c-3f95-48a3-93c4-e78021a43f29";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development *";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -548,12 +556,16 @@
 			baseConfigurationReference = 9E37FF726682512705AF707A /* Pods-DMMessageHUD_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XDK267KQ83;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DMMessageHUD/DMMessageHUD-Prefix.pch";
 				INFOPLIST_FILE = "DMMessageHUD/DMMessageHUD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "29ecd84c-3f95-48a3-93c4-e78021a43f29";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development *";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
